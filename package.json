@@ -27,7 +27,7 @@
     "dev": "storybook dev -p 6006",
     "predeploy": "yarn run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static",
-    "build-storybook": "build-storybook -o docs-build"
+    "build-storybook": "storybook build -o alerassa-build"
   },
   "eslintConfig": {
     "extends": [
